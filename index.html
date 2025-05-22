@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Homepage</title>
+  </head>
+  <body class="home-page">
+    <div class="home">
+      <nav>
+        <h2 class="logo">Library</h2>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="books.html">Books</a></li>
+          <li><a href="about.html#about">About</a></li>
+          <li><a href="about.html#contact-section">Contact</a></li>
+        </ul>
+        <button type="button" class="logout" onclick="logout()">Logout</button>
+      </nav>
+      <div class="container">
+        <h1 class="welcome">Welcome to the Library</h1>
+        <button class="start-btn" onclick="teleportBook()">
+          Tap to get started
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
